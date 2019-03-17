@@ -1,0 +1,162 @@
+<!-- Text Input -->
+<!-- Radio Buttons -->
+<!-- Email Input -->
+<!-- Password Input -->
+<!-- Select Tag -->
+<!-- Checkbox Input -->
+<!-- Submit Input -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+</head>
+
+<body>
+
+  <h1>Register</h1>
+
+  <form>
+    <!-- Text Input -->
+    <label for="firstname">First Name:</label>
+    <input name="firstName" id="firstname" type="text" placeholder="John" required>
+
+    <label for="lastname">Last Name:</label>
+    <input name="lastName" id="lastname" type="text" placeholder="Smith" required>
+    <!-- /Text Input -->
+
+    <br>
+
+    <!-- Radio Buttons -->
+    <label for="male">Male</label>
+    <input name="radio-choice" id="male" type="radio" value="choice-1">
+
+    <label for="female">Female</label>
+    <input name="radio-choice" id="female" type="radio" value="choice-2">
+
+    <label for="other">Other</label>
+    <input name="radio-choice" id="other" type="radio" value="choice-3">
+    <!-- /Radio Buttons -->
+
+    <br>
+
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="your email" required>
+    <!-- /Email Input -->
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input id="password" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+    <!-- /Password Input -->
+
+    <br>
+
+    <!-- Select Tag -->
+    <label>Birthday:</label>
+    <select name="select-choice">
+      <option value="choice 0" selected>Month</option>
+      <option value="choice 1">Jan</option>
+      <option value="choice 2">Feb</option>
+      <option value="choice 3">Mar</option>
+      <option value="choice 4">Apr</option>
+      <option value="choice 5">May</option>
+      <option value="choice 6">Jun</option>
+      <option value="choice 7">Jul</option>
+      <option value="choice 8">Aug</option>
+      <option value="choice 9">Sep</option>
+      <option value="choice 10">Oct</option>
+      <option value="choice 11">Nov</option>
+      <option value="choice 12">Dec</option>
+    </select>
+
+    <select name="birthday_day">
+      <option value="day" selected>Day</option>
+      <option value="day_1">1</option>
+      <option value="day_2">2</option>
+      <option value="day_3">3</option>
+      <option value="day_4">4</option>
+      <option value="day_5">5</option>
+      <option value="day_6">6</option>
+      <option value="day_7">7</option>
+      <option value="day_8">8</option>
+      <option value="day_9">9</option>
+      <option value="day_10">10</option>
+      <option value="day_11">11</option>
+      <option value="day_12">12</option>
+      <option value="day_13">13</option>
+      <option value="day_14">14</option>
+      <option value="day_15">15</option>
+      <option value="day_16">16</option>
+      <option value="day_17">17</option>
+      <option value="day_18">18</option>
+      <option value="day_19">19</option>
+      <option value="day_20">20</option>
+      <option value="day_21">21</option>
+      <option value="day_22">22</option>
+      <option value="day_23">23</option>
+      <option value="day_24">24</option>
+      <option value="day_25">25</option>
+      <option value="day_26">26</option>
+      <option value="day_27">27</option>
+      <option value="day_28">28</option>
+      <option value="day_29">29</option>
+      <option value="day_30">30</option>
+      <option value="day_31">31</option>
+    </select>
+
+    <select name="birthday_year">
+      <option value="year" selected>Year</option>
+      <option value="year_2018">2018</option>
+      <option value="year_2017">2017</option>
+      <option value="year_2016">2016</option>
+      <option value="year_2015">2015</option>
+      <option value="year_2014">2014</option>
+      <option value="year_2013">2013</option>
+      <option value="year_2012">2012</option>
+      <option value="year_2011">2011</option>
+      <option value="year_2010">2010</option>
+      <option value="year_2009">2009</option>
+      <option value="year_2008">2008</option>
+      <option value="year_2007">2007</option>
+      <option value="year_2006">2006</option>
+      <option value="year_2005">2005</option>
+      <option value="year_2004">2004</option>
+      <option value="year_2003">2003</option>
+      <option value="year_2002">2002</option>
+      <option value="year_2001">2001</option>
+      <option value="year_2000">2000</option>
+      <option value="year_1999">1999</option>
+      <option value="year_1998">1998</option>
+      <option value="year_1997">1997</option>
+      <option value="year_1996">1996</option>
+      <option value="year_1995">1995</option>
+      <option value="year_1994">1994</option>
+      <option value="year_1993">1993</option>
+      <option value="year_1992">1992</option>
+      <option value="year_1991">1991</option>
+      <option value="year_1990">1990</option>
+    </select>
+    <!-- /Select Tag -->
+
+    <br>
+
+    <!-- Checkbox Input -->
+    <label for="checkbox">I agree to the terms and conditions</label>
+    <input id="checkbox" type="checkbox">
+    <!-- /Checkbox Input -->
+
+    <br>
+
+    <!-- Submit Input -->
+    <input type="submit" value="Submit">
+    <!-- /Submit Input -->
+  </form>
+
+</body>
+
+</html>
