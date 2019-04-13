@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <!-- Koffee and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-nav-demo">
+        <ul class="nav navbar-nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+  </nav>
+
+  <div class="container">
+    <!-- jumbotron -->
+    <div class="jumbotron">
+      <h1><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
+      <p>A bunch of beautiful images that I didn't take (except for the first one!)</p>
+    </div>
+
+    <!-- Images -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="http://i.imgur.com/qK42fUu.jpg" alt="San Francisco Golden Gate Bridge">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img
+            src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"
+            alt="Mist">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img
+            src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"
+            alt="Black-and-white Revival architecture">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img
+            src="https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9"
+            alt="Mountain">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img
+            src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"
+            alt="Cloud">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img
+            src="https://images.unsplash.com/photo-1434543177303-ef2cc7707e0d?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"
+            alt="Calm">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img
+            src="https://images.unsplash.com/photo-1436262513933-a0b06755c784?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"
+            alt="Marketing">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img
+            src="https://images.unsplash.com/photo-1439396087961-98bc12c21176?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"
+            alt="California: San Francisco, rich and poor">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img
+            src="https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450"
+            alt="Blue Skies by Silent Partner">
+        </div>
+      </div>
+    </div>
+  </div><!-- /.container -->
+
+  <!-- jQuery Core 3.3.1 - uncompressed -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
