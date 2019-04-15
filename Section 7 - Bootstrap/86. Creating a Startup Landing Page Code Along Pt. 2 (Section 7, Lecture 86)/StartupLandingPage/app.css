@@ -1,0 +1,36 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467);
+  background-size: cover;
+  background-position: center center;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.content {
+  text-align: center;
+  padding-top: 25%;
+  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
+         0 8px 13px rgba(0, 0, 0, 0.1),
+         0 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5em;
+}
+
+hr {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  /*if you can't get the <hr> element to appear correctly on mobile devices*/
+  /*Not displaying hr correctly on mobile
+  Peter · Lecture 87 · a year ago
+  This is not a question. I just dind't know how else to contact you, but when I used the meta viewport tag, I noticed that on my mobile the <hr> was going off the side of the screen. Quick fix was to add max-width: 90%; to the hr selector. You should add that to the note at the end. Thanks.*/
+  max-width: 90%;
+}
