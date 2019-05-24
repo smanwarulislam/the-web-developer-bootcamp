@@ -6,15 +6,16 @@ If
 Else If
 Else */
 
-// Examples
+/* Examples
 If you are younger than 18
-you cannot enter the venue
+  you cannot enter the venue
 
 If you are between 18 and 21
-you can enter but cannot drink
+  you can enter but cannot drink
 
 Otherwise
-you can enter and drink
+  you can enter and drink
+ */
 
 // Boolean Logic Review
 1 < 2
